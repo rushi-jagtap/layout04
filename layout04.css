@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.img {
+    background-image: url(../technology-computer-creative-design.jpg);
+    opacity: 0.9;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* position: absolute; */
+
+}
+
+.parent {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 70px;
+}
+
+h1,
+h2,
+a {
+    color: white;
+    text-transform: capitalize;
+    z-index: 1;
+    text-decoration: none;
+}
+
+.subHeading {
+    text-transform: lowercase;
+    font-size: 50px;
+    padding: 0px 0px 60px 0px;
+}
+
+.heading {
+    font-size: 170px;
+}
+
+.button {
+    margin: 30px;
+    padding: 10px 25px;
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 35px;
+}
+
+.flex {
+    display: flex;
+    height: 230px;
+    text-align: center;
+    color: white;
+    /* width: 100vh; */
+}
+
+.color1 {
+    background-color: rgb(194, 28, 133);
+}
+
+.color2 {
+    background-color: rgb(128, 27, 27);
+}
+
+.color3 {
+    background-color: rgb(134, 132, 21);
+}
+
+.color4 {
+    background-color: rgb(17, 105, 135);
+}
+
+.color1,
+.color2,
+.color3,
+.color4 {
+    width: 100vh;
+    padding: 30px;
+    flex-grow: 1;
+}
+
+.flex div h2,
+.flex div a,
+.flex div p {
+    padding: 10px 0px 20px 0px;
+}
+
+.flex div a {
+    text-transform: uppercase;
+    font-size: 15px;
+
+}

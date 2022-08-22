@@ -1,0 +1,27 @@
+.heading {
+    font-size: 70px;
+}
+
+.parent h2 {
+    font-size: 20px;
+}
+
+.subHeading {
+    font-size: 30px;
+}
+
+.flex {
+    flex-wrap: wrap;
+}
+
+.button {
+    font-size: 10px;
+    padding: 5px 15px;
+}
+
+.color1,
+.color2,
+.color3,
+.color4 {
+    width: 300px;
+}
